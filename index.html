@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML Element Practice hw</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<p>Press<kbd> Ctrl</kbd>+<kbd>C</kbd> to copy text(Windows)</p>
+		<p>Press<kbd> cmd</kbd>+<kbd>C</kbd> to copy text(Mac OS)</p>
+		<form action="/action_page.php">
+			<input type="radio" id="html" name="fav_language" value="HTML">
+			<label for="html">HTML</label><br>
+			<input type="radio" id="css" name="fav_language" value="CSS">
+			<lebel for="css">CSS</lebel><br>
+			<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			<lebel for="javascript">JavaScript</lebel><br><br>
+			<input type="submit" value="submit">
+		</form>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>Personalia:</legend>
+				<label for="fname">First Name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last Name:</label>
+				<input type="text" id="lname" name="lname"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name='birthday'><br><br>
+				<input type="submit" value="submit">
+			</fieldset>
+		</form>
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ol>
+
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ul>
+		<main>
+			<h1>Dummy Text for dummy webpage</h1>
+			<p>Lorem has varios dummy text.</p>
+
+			<article>
+			<h2>Lorem-1 </h2>
+			<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</article>
+
+		<article>
+			<h2>Lorem-2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+	</main>
+	<img src="images/web.jpg" alt="workplace" usemap="#workmap" width="400" heiht="379">
+	<map name="workmap">
+		<area shape="rect" coords="34,44,270,350" alt="computer" href="computer.html">
+		<area shape="rect" coords="290,172,333,250" alt="phone" href="phone.html">
+		<area shape="circle" coords="337,300,44 alt="Cup of coffee" href="coffee.html">
+	</map>
+	<p>Do not forget to complete <mark>hw</mark> next day.</p>
+	<label for="disc_c">Disk usage C:</label>
+	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+	<label for="disk_d">Disk usages D:</label>
+	<meter id="disk_c" value="0.6">60%</meter>
+	<menu>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JavaScript</li>
+</menu>
+<nav>
+	<a href="/html/">HTML</a> ।
+	<a href="/CSS/">CSS</a> ।
+	<a href="/js/">JavaScript</a> ।
+</nav>
+  <script>
+  	document.write("Hello World!")
+  </script>
+  <noscript>Your browser does not support JavaScript</noscript>
+  <object data="web.jpg" width="300" height="200"></object>
+  <ol>
+  	<li>Coffee</li>
+  	<li>Milk</li>
+  	<li>Tea</li>
+  </ol>
+  <ol start="50">
+  	<li>Coffee</li>
+  	<li>Milk</li>
+  	<li>Tea</li>
+  </ol>
+  <label for="cars">Chose a car:</label>
+  <select name="cars" id="cars">
+  	<optgroup label="Swedish Cars">
+  		<option value="volvo">Volvo</option>
+  		<option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	<input type="range" id="a" value="50">
+	+<input type="number" id="b" value="25">
+	=<output name="x" for="a b"></output>
+</form>
+<object data="horse.wav">
+	<param name="autoplay" value="true">
+</object>
+<pre>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+</pre>
+   <label for="file">Downloading progress:</label>
+   <progress id="file" value="32" max="100"> 39%</progress>
+   <p>WWF's goal is to:
+   	<q>Build a future where people live in harmony with nature</q>
+   We hope they succeed</p>
+   <p><s>Only 50 tickets left!</s></p>
+   <p>SOLD OUT!</p>
+   <p>Message from my computer:</p>
+
+   <p><samp>File not found.<br>Press F1 to continue</samp></p>
+   <script>
+   	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+   </script>
+   <search>
+   	<form>
+   		<input name="fsrch" id="fsrch" placeholder="Search Sakib Ahmed">
+   	</form>
+   </search>
+   <section>
+<h2>WWF History</h2>
+<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+<h2>WWF's Symbol</h2>
+<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+ <p>This is normal text</p>
+ <p><small>This is smaller text</small></p>
+ <p>My friend has <span style="colour:blue">blue</span> eyes.</p>
+ <strong>This is important</strong>
+ <p> This text contains <sub>subcript</sub> text.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+
+	</body>
+</html>
